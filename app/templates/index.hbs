@@ -1,15 +1,15 @@
-<h1>Welcome to Super Rentals</h1>
+  <h1>Welcome to Super Rentals</h1>
 
-<p>We hope you find exactly what you're looking for in a place to stay.</p>
+  <h3>We hope you find exactly what you're looking for in a place to stay.</h3>
 
-<ul>
-  {{#each model as |rental|}}
-    {{rental-tile rental=rental}}
-  {{/each}}
-</ul>
-
-{{new-rental saveRental="saveRental"}}
-
-{{#link-to 'about'}}About{{/link-to}}
-<br>
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+  <ul>
+    {{#each model as |rental|}}
+      <h3>{{rental-tile rental=rental}}</h3>
+    {{/each}}
+  </ul>
+  <br><br>
+  {{new-rental saveRental="saveRental"}}
+  <br>
+  <h4>{{#link-to 'about'}}About{{/link-to}}</h4>
+  <br>
+  <h4>{{#link-to 'contact'}}Click here to contact us.{{/link-to}}</h4>
