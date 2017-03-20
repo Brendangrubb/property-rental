@@ -16,5 +16,25 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
-  }]
+  }],
+
+  "announcements":
+  [
+    {
+      "title": "Christmas Plans",
+      "body": "if you have any ideas for christmas plans please call the min office. Thanks nerds!",
+      "date": "11/30/16"
+    },
+    {
+      "title": "No Fires by the Pool",
+      "body": "To whoever started the garbage fire by the pool, please clean up the debris. YOU ARE NOT ALLOWED TO START FIRES BY THE POOL!",
+      "date": "2/14/17"
+    },
+    {
+      "title": "Extreme Weather",
+      "body": "There are tornados, hail and category 4 winds in the forcast for tomorrow, we recommend imemdiate evacuation. Have a nice day!",
+      "date": "2/17/17"
+    }
+  ]
+
 }
