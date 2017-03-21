@@ -1,5 +1,8 @@
-<h2>More information about {{model.owner}}'s {{model.type}}:</h2>
+<div class="scroll">
+  <h3>Property: </h3>
 
-{{update-rental rental=model update="update"}}
+  More information about {{model.owner}}'s {{model.type}}
 
-{{rental-detail rental=model destroyRental="destroyRental"}}
+  {{update-rental rental=model update="update"}}&nbsp;&nbsp;
+  {{rental-detail rental=model destroyRental="destroyRental"}}
+</div>

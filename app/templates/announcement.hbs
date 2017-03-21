@@ -1,4 +1,8 @@
-<h3>Announcement: </h3>
+<div class="scroll">
+  <h3>Announcement: </h3>
 
-{{model.title}}<br>
-{{model.body}}
+  Here's the {{model.title}} Announcement
+
+  {{update-announcement announcement=model update="update"}} &nbsp;&nbsp;
+  {{announcement-detail announcement=model destroyAnnouncement="destroyAnnouncement"}}
+</div>

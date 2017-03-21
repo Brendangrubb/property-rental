@@ -43,10 +43,16 @@ li {
 #greeting {
   text-align: center;
 }
+
 #header {
   font-size: 1em;
   padding: 30px;
   background-color: #DDE7E7;
+}
+
+.home {
+  margin-top: -20px;
+  margin-bottom: 10px;
 }
 
 .listings {
@@ -61,6 +67,14 @@ li {
 
 #new-announcement {
   margin-left: 20px;
+}
+
+.scroll {
+  border: 1px solid #DDE7E7;
+  width: 800px;
+  min-height: 400px;
+  max-height: 400px;
+  overflow-y: scroll;
 }
 
 .tile {

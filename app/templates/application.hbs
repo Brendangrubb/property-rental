@@ -5,15 +5,19 @@
   <div class= "container">
     <header id="header">
       <h1>Super Rentals</h1>
-      <h3>We'll hrlp you find exactly what you're looking for!</h3>
+      <h3>We'll help you find exactly what you're looking for!</h3>
     </header>
     <div id="body-content">
 
     {{outlet}}
 
+
     </div>
-    <footer id="footer">
-      {{#link-to 'contact'}}Contact us{{/link-to}} // {{#link-to 'index'}}Home Page{{/link-to}}
+    <footer class="center" id="footer">
+      <div class="center home">
+        <button class="btn">{{#link-to 'index'}}Home Page{{/link-to}}</button>
+      </div>
+      {{#link-to 'contact'}}Contact us{{/link-to}} // {{#link-to 'about'}}About Super-Rentals{{/link-to}}
     </footer>
   </div>
 </body>
