@@ -1,8 +1,6 @@
 {{yield}}
 
 {{#if addNewAnnouncement}}
-  <h1>New Announcement</h1>
-  <div div="containers">
     <form>
       <div class="form-group">
         <label for="title">Title</label>
@@ -21,7 +19,6 @@
 
       <button class="btn" {{action 'saveAnnouncement'}}>Save Announcement</button>
     </form>
-  </div>
 {{else}}
   <button class="btn" {{action 'announcementFormShow'}}>New Announcement</button>
 {{/if}}

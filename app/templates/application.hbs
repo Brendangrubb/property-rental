@@ -1,13 +1,19 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <div class= "container">
+    <header id="header">
+      <h1>Super Rentals</h1>
+      <h3>We'll hrlp you find exactly what you're looking for!</h3>
+    </header>
+    <div id="body-content">
 
-<div class= "container">
-  <header class= "jumbotron">
-    <h1>Super Rentals</h1>
-  </header>
-  <hr>
+    {{outlet}}
 
-  {{outlet}}
-
-  <footer>
-    {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}}
-  </footer>
-</div>
+    </div>
+    <footer id="footer">
+      {{#link-to 'contact'}}Contact us{{/link-to}} // {{#link-to 'index'}}Home Page{{/link-to}}
+    </footer>
+  </div>
+</body>
