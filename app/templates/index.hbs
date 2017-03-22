@@ -3,6 +3,7 @@
 </div>
 
 <div class="row">
+
   <div class="col-md-6">
     <div id="new-listing">
       <h3 class="center">Add a Listing:</h3>
@@ -20,12 +21,32 @@
   </div>
 
   <div class="col-md-6">
+    <div id="new-review">
+      <h3 class="center">Add a Review:</h3>
+      <div class="center">
+        {{new-review saveReview="saveReview"}}
+      </div>
+      <div class="reviews center">
+        <ul>
+          {{#each model.review as |review|}}
+            <li><em>rating</em> - {{review.rating}} &nbsp; ||| &nbsp; <em>author</em> - {{review.author}}</li>
+              <li><em>review</em> - {{review.content}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
     <div id="new-announcement">
       <h3 class="center">Add an Announcement:</h3>
       <div class="center">
         {{new-announcement saveAnnouncement="saveAnnouncement"}}
       </div>
-      <div class="listings">
+      <div class="listings center">
         <ul>
           {{#each model.announcement as |announcement|}}
           <h4>{{announcement-tile announcement=announcement}}</h4>

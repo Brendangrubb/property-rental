@@ -31,6 +31,9 @@ li {
   text-align: center;
 }
 
+.delete-button {
+  float: right;
+}
 #footer{
   font-size: 1em;
   background-color: #DDE7E7;
@@ -61,6 +64,12 @@ li {
   overflow-y: scroll;
 }
 
+.main-scroll {
+  min-height: 500px;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
 #new-listing {
   margin-left: 20px;
 }
@@ -71,7 +80,7 @@ li {
 
 .scroll {
   border: 1px solid #DDE7E7;
-  width: 800px;
+  width: 600px;
   min-height: 400px;
   max-height: 400px;
   overflow-y: scroll;
